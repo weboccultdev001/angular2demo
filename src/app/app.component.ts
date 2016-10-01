@@ -6,8 +6,12 @@ import { Component,Inject } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+
    title = 'app works!';
+
+   ngOnInit(){
+
+   }
 
   constructor() {
 

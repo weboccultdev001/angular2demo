@@ -12,7 +12,7 @@ import {AngularFireModule} from 'angularfire2';
 import * as firebase from 'firebase';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CategoryComponent } from './category/category.component';
-
+import {InputTextModule,MenuModule,GrowlModule,ButtonModule} from 'primeng/primeng';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyAtI0Wu2AuFeTud1KQuDLH4Op2zNSRNUdo',
@@ -26,13 +26,18 @@ const firebaseConfig = {
     SidebarComponent,
     UsersComponent,
     DashboardComponent,
-    CategoryComponent
+    CategoryComponent,
   ],
   imports: [
     BrowserModule,
     CommonModule,
     FormsModule,
     HttpModule,
+    InputTextModule,
+    InputTextModule,
+    MenuModule,
+    GrowlModule,
+    ButtonModule,
     NgBetaDemoRoutingModule,
    AngularFireModule.initializeApp(firebaseConfig)
   ],
