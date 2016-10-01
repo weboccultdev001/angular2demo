@@ -13,6 +13,9 @@ import * as firebase from 'firebase';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CategoryComponent } from './category/category.component';
 import {InputTextModule,MenuModule,GrowlModule,ButtonModule} from 'primeng/primeng';
+import { NavbarComponent } from './theme/navbar/navbar.component';
+import { LeftMenuComponent } from './theme/left-menu/left-menu.component';
+import { RightMenuComponent } from './theme/right-menu/right-menu.component';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyAtI0Wu2AuFeTud1KQuDLH4Op2zNSRNUdo',
@@ -27,6 +30,9 @@ const firebaseConfig = {
     UsersComponent,
     DashboardComponent,
     CategoryComponent,
+    NavbarComponent,
+    LeftMenuComponent,
+    RightMenuComponent
   ],
   imports: [
     BrowserModule,

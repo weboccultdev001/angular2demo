@@ -1,4 +1,5 @@
 import { Component,Inject } from '@angular/core';
+import { NavbarComponent } from './theme/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',

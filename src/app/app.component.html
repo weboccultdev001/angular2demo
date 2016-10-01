@@ -1,8 +1,16 @@
-<h1>
-  {{title}}
-</h1>
+<nav-bar></nav-bar>
 
- <a routerLink="/" routerLinkActive="active">Firebase Demo</a>
- <a routerLink="/categories" routerLinkActive="active">Mongo DB</a>
 
-<router-outlet></router-outlet>
+<div class="container-fluid mimin-wrapper">
+    <leftmenu></leftmenu>
+
+   <!-- start: Content -->
+    <router-outlet></router-outlet>
+   <!-- end: content -->
+
+
+   <!-- start: right menu -->
+    <rightmenu></rightmenu>
+   <!-- end: right menu -->
+
+</div>
